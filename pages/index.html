@@ -5,22 +5,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <div>
-    <nav>
-      <a href="pages/contact.html">Pages</a>
-      <a href="pages/gallery.html">Contact</a>
-      <a href="index.html">Main page</a>
-    </nav>
-    <h1>Here my main page</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum molestiae eius sit maxime culpa sunt reiciendis
-      modi optio dolores, eligendi consectetur explicabo excepturi eos aliquam nisi ad nam cum magnam.</p>
-  </div>
-  <h2>Contact Form</h2>
 
+  <div class="padding-first">
+
+  <nav class="flex">
+      <a href="contact.html">Pages</a>
+      <a href="gallery.html">Contact</a>
+      <a href="index.html">Main</a>
+    </nav>
   <form action="/submit" method="post">
+    <h2>Contact Form</h2>
     <label for="name">Name:</label><br>
     <input type="text" id="name" name="name"><br><br>
 
@@ -32,6 +30,7 @@
 
     <button type="submit">Send</button>
   </form>
+  </div>
 </body>
 
 </html>
